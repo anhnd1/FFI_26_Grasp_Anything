@@ -1,0 +1,12 @@
+# credentials
+kaggle.json
+
+# python
+__pycache__/
+*.pyc
+
+# data and run outputs (rebuilt by the pipeline)
+data/gapp5k/
+data/.cache/
+runs/
+out/

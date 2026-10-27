@@ -1,0 +1,15 @@
+# Training / inference (GPU). Versions follow the Unsloth Qwen3.5 vision notebook; after installing run:
+#   unsloth install-kernels      (Gated DeltaNet Triton kernels used by Qwen3.5)
+torch>=2.8
+unsloth
+unsloth_zoo
+transformers==5.2.0
+trl==0.22.2
+tokenizers>=0.22.0,<=0.23.0
+torchao>=0.16.0
+
+# Data building, preprocessing, analysis (CPU)
+numpy
+pillow
+requests
+huggingface_hub
